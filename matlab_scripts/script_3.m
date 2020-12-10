@@ -14,5 +14,7 @@ l.LineWidth = 2;
 % %read in data
 % data = csvread('data/letter_3.csv');
 % %plot data
-% l = patch(data(:,1), data(:,2), [1, 0.8, 0]);  % per reviewer comment
-% l.LineWidth = 2;
+% l = patch(data(:,1), data(:,2), [0, 0.2, 0.4]);  % per reviewer comment
+% l.LineWidth =2;
+
+I changed - Yu
