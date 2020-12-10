@@ -2,16 +2,17 @@
 %
 %   This script produces the yellow banner
 %
-
+fprintf("This is script 5");
 % read in data
 data = csvread('data/upper_banner.csv');
 %plot data
-color = [1.0, 0.8235, 0];
+color = [1.0, 0.5, 0];
 l = patch(data(:,1), data(:,2), color);
 l.LineWidth = 2;
 l.EdgeColor = color; 
 xlim([-2,32])
 ylim([-3,22])
+title("I changed the second element of color vector");
 
 %% SOLUTION: Breakout 1
 
