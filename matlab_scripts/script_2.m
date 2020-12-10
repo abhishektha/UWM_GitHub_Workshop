@@ -6,7 +6,7 @@
 %read in data
 data = csvread('data/letter_2.csv');
 %plot data
-l = patch(data(:,1), data(:,2), 'black');
+l = patch(data(:,1), data(:,2), [0, 0.2, 0.4]);
 l.LineWidth = 2;
 
 %% SOLUTION: Breakout 1
